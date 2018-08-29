@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,8 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main{
+public class Main1020
+{
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
