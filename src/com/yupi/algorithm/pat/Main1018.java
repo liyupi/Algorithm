@@ -1,4 +1,7 @@
-import java.util.*;
+package com.yupi.algorithm.pat;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * 功能描述：人口普查
@@ -6,7 +9,7 @@ import java.util.*;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class Main1018
 {
     static class Person
     {
