@@ -1,4 +1,8 @@
-import java.util.*;
+package com.yupi.algorithm.pat;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * 功能描述：坏键盘
@@ -6,7 +10,7 @@ import java.util.*;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class Main1019
 {
 
     public static void main(String[] args)
