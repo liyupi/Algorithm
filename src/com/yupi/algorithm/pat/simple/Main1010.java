@@ -1,4 +1,4 @@
-package com.yupi.algorithm.pat;
+package com.yupi.algorithm.pat.simple;
 
 import java.util.Arrays;
 import java.util.Scanner;
