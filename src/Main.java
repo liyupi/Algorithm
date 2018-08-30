@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * 功能描述：有几个PAT
+ * 功能描述：母牛生牛（水题）
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
@@ -9,37 +9,28 @@ import java.util.Scanner;
 public class Main
 {
 
-    public static void main(String args[])
-    {
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNext())
+    static long[] nums = new long[56];
+
+    static void init(){
+        nums[1] = 1;
+        nums[2] = 2;
+        nums[3] = 3;
+        nums[4] = 4;
+        for (int i = 5; i < 56 ; i++)
         {
-            String str = sc.nextLine();
-            // count0表示p的个数，count1表示每个a前的p的个数的和，即遇到t加上count1
-            long[] counts = new long[2];
-            int len = str.length();
-            long sum = 0;
-            for (int i = 0; i < len; i++)
-            {
-                char c = str.charAt(i);
-                switch (c)
-                {
-                    case 'P':
-                        counts[0]++;
-                        break;
-                    case 'A':
-                        counts[1] += counts[0];
-                        break;
-                    case 'T':
-                        sum += counts[1]%1000000007;
-                        break;
-                    default:
-                        break;
-                }
-            }
-            System.out.println(sum%1000000007);
+            nums[i] = nums[i-1]+nums[i-3];
         }
     }
 
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        init();
+        while (sc.hasNext())
+        {
+            int n =sc.nextInt();
+            System.out.println(nums[n]);
+        }
+    }
 
 }
