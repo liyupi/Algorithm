@@ -1,12 +1,14 @@
+package com.yupi.algorithm.pat.simple_practice;
+
 import java.util.Scanner;
 
 /**
- * 功能描述：斐波那契凤尾（水题）
+ * 功能描述：斐波那契凤尾
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class Main1005
 {
 
     static int[] nums = new int[100001];
