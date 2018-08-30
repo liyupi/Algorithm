@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class Main1024
 {
     // 获得最大公约数
     static int gcd(int a, int b)
