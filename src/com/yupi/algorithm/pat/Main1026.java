@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class Main1026
 {
     public static void main(String args[])
     {
@@ -15,11 +17,12 @@ public class Main
         {
             int n = sc.nextInt();
             char c = sc.next().charAt(0);
-            for (int i = 0; i < (n + 1) / 2; i++)
+            int i1 = (n + 1) / 2;
+            for (int i = 0; i < i1; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (i==0||i==((n + 1) / 2 -1)){
+                    if (i==0||i==(i1 -1)){
                         System.out.print(c);
                         continue;
                     }
