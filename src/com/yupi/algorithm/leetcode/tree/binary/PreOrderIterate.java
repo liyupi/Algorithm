@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -8,7 +10,7 @@ import java.util.Stack;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class PreOrderIterate
 {
     public class TreeNode
     {
