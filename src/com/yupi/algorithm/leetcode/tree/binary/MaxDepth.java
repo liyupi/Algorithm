@@ -1,6 +1,4 @@
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+package com.yupi.algorithm.leetcode.tree.binary;
 
 /**
  * 功能描述：二叉树的深度（自顶向下和自底向上）
@@ -8,7 +6,7 @@ import java.util.Queue;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class MaxDepth
 {
     public class TreeNode
     {
