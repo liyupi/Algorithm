@@ -1,4 +1,5 @@
-import java.util.ArrayDeque;
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -8,7 +9,7 @@ import java.util.Queue;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class IsSymmetric {
     public static void main(String args[]) {
         StringBuilder stringBuilder = new StringBuilder("AAB");
         System.out.println(stringBuilder.reverse());
