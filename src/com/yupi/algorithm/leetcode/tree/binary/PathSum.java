@@ -1,14 +1,12 @@
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
+package com.yupi.algorithm.leetcode.tree.binary;
 
 /**
- * 功能描述：路径总和（递归和迭代）
+ * 功能描述：路径总和
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class PathSum {
 
     public class TreeNode {
         int val;
