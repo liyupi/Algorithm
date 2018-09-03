@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 /**
  * 功能描述：已知中序后序求先序
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class GetPreOrderByMiddleAndPost {
 
     public class TreeNode {
         int val;
@@ -44,6 +46,6 @@ public class Main {
     }
 
     public static void main(String args[]) {
-        new Main().buildTree(new int[]{9,3,15,20,7},new int[]{9,15,7,20,3});
+
     }
 }
