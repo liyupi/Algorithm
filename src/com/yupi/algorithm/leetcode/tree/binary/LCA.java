@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 /**
- * 功能描述：根据前序和中序遍历构造二叉树
+ * 功能描述：二叉树最近公共祖先
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class LCA {
 
     public class TreeNode {
         int val;
