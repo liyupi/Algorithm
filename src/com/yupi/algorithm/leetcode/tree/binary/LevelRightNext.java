@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -7,7 +9,7 @@ import java.util.Queue;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class LevelRightNext {
 
     public static class TreeLinkNode {
         int val;
