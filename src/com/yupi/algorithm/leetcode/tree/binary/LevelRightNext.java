@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 功能描述：每层节点向右连接（迭代和递归）
+ * 功能描述：每层节点向右连接-完全二叉树（迭代和递归）
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
