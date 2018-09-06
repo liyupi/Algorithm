@@ -1,27 +1,13 @@
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+package com.yupi.algorithm.leetcode.tree.binary;
 
 /**
- * 功能描述：每层节点向右连接-非完全二叉树（迭代和递归）
+ * 功能描述：序列化与反序列化（先序）
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main
+public class SerializeAndDeserialize
 {
-
-    public static void main(String args[])
-    {
-        TreeNode treeNode = new TreeNode(1);
-        treeNode.left = new TreeNode(2);
-        treeNode.right = new TreeNode(3);
-        treeNode.left.left = new TreeNode(4);
-        treeNode.right.right = new TreeNode(5);
-        System.out.println(new Main().serialize(treeNode));
-    }
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
