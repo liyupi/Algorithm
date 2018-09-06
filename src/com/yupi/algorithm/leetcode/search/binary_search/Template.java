@@ -1,16 +1,12 @@
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+package com.yupi.algorithm.leetcode.search.binary_search;
 
 /**
- * 功能描述：每层节点向右连接-非完全二叉树（迭代和递归）
+ * 功能描述：二分查找模板
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class Template {
 
     public int search(int[] nums, int target) {
         int left = 0;
