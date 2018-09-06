@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：改变一定顺序的二分查找
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class ReversePart {
 
     public int search(int[] nums, int target) {
         if (nums.length == 0) {
