@@ -1,4 +1,5 @@
-import java.util.Calendar;
+package com.yupi.algorithm.pat.simple_practice;
+
 import java.util.Scanner;
 
 /**
@@ -7,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class Main1031 {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
