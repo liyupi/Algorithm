@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class Template2 {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
