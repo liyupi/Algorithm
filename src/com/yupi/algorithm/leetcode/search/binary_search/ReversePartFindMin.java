@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：升序数列翻转找反转点
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class ReversePartFindMin {
 
     public int findMin(int[] nums) {
         int left = 0;
@@ -21,6 +23,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Main().findMin(new int[]{1,2,3,4}));
+        System.out.println(new ReversePartFindMin().findMin(new int[]{1,2,3,4}));
     }
 }
