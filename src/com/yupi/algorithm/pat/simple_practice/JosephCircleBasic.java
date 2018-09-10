@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat.simple_practice;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class JosephCircleBasic {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,5 +23,5 @@ public class Main {
             System.out.println(s + 1);
         }
     }
-
+    
 }
