@@ -1,10 +1,16 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
- * 功能描述：升序数列翻转找反转点
+ * 功能描述：查找数组中某值所在的索引范围
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class RangeSearch {
+
+    public static void main(String[] args) {
+        new RangeSearch().searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8);
+    }
 
     public int[] searchRange(int[] nums, int target) {
         int left = 0;
@@ -39,11 +45,7 @@ public class Main {
                 break;
             }
         }
-        return new int[]{left,right};
-    }
-
-    public static void main(String[] args){
-        new Main().searchRange(new int[]{5,7,7,8,8,10},8);
+        return new int[]{left, right};
     }
 
 }
