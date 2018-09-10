@@ -1,14 +1,15 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
- * 功能描述：升序数列翻转找反转点
+ * 功能描述：升序数列中寻找最接近的k个元素
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class FindKNearestNums {
 
     public static void main(String[] args) {
     }
