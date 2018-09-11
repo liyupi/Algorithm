@@ -1,12 +1,12 @@
-import java.util.Scanner;
+package com.yupi.algorithm.leetcode.search.binary_search;
 
 /**
- * 功能描述：约瑟夫环基础
+ * 功能描述：乘方
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class Multiply {
 
     public double myPow(double x, int n) {
         boolean positive = true;
