@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class JosephCircleBasic {
+public class Main1032 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

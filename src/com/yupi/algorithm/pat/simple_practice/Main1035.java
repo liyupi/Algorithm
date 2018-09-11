@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat.simple_practice;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +11,7 @@ import java.util.Scanner;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class Main1035 {
 
     static class Student{
         String name;
