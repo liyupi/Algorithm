@@ -1,13 +1,15 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：有效的完全平方数
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
-public class Main {
+public class PerfectSquareNum {
 
     public static void main(String[] args) {
-        System.out.println(new Main().isPerfectSquare(808201));
+        System.out.println(new PerfectSquareNum().isPerfectSquare(808201));
     }
 
     public boolean isPerfectSquare(int num) {
