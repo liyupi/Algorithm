@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：寻找重复数
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindDuplicate {
 
     public int findDuplicate(int[] nums) {
         int n = nums.length - 1;
