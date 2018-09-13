@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 import java.util.*;
 
 /**
@@ -7,7 +9,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindIntersection {
 
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length == 0 || nums2.length == 0){
