@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：寻找旋转排序数组的最小值（带重复元素）
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ReversePartFindMin2 {
 
     public int findMin(int[] nums) {
         int left = 0;
