@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 import java.util.Arrays;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Arrays;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindKMinDistancePair {
 
     public int smallestDistancePair(int[] nums, int k) {
         Arrays.sort(nums);
