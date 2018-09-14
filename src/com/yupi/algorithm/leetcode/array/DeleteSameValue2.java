@@ -1,11 +1,13 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
- * 功能描述：删除数组重复值
+ * 功能描述：删除数组重复值2
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class DeleteSameValue2 {
 
     public int removeDuplicates(int[] nums) {
         if (nums.length < 3) {
@@ -21,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        new Main().removeDuplicates(new int[]{1,1,1,2,2,3});
+        new DeleteSameValue2().removeDuplicates(new int[]{1,1,1,2,2,3});
     }
 
 }
