@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：寻找两个排序数组的中位数
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindMiddleFromTwoSortedArrays {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
