@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：合并两个有序数组
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MergeTwoSortedArrays {
 
     public static void main(String[] args) {
     }
