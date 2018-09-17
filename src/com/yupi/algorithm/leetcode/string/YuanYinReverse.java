@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：元音字母字串反转
  *
@@ -5,10 +7,10 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class YuanYinReverse {
 
     public static void main(String[] args) {
-        System.out.println(new Main().reverseVowels("leetcode"));
+        System.out.println(new YuanYinReverse().reverseVowels("leetcode"));
     }
 
     public String reverseVowels(String s) {
