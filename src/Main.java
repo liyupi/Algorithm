@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 /**
- * 功能描述：寻找其和大于等于s的长度最小连续子数组
+ * 功能描述：自建哈希表（其实应该是数组加链表）
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
@@ -11,33 +7,36 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println(new Main().minSubArrayLen(7, new int[]{2, 3, 1, 2, 4, 3}));
+    class MyHashMap {
+
+        int[][] bucket;
+
+        /**
+         * Initialize your data structure here.
+         */
+        public MyHashMap() {
+            this.bucket = new int[1000][1000];
+        }
+
+        public void remove(int key) {
+            bucket[key / 1000][key % 1000] = 0;
+        }
+
+        /**
+         * value will always be positive.
+         */
+        public void put(int key, int value) {
+            bucket[key / 1000][key % 1000] = value + 1;
+        }
+
+        /**
+         * Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
+         */
+        public int get(int key) {
+            return bucket[key / 1000][key % 1000] - 1;
+        }
+
     }
 
-    public int minSubArrayLen(int s, int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
-        int left = 0;
-        int right = 0;
-        int sum = nums[left];
-        int min = nums.length + 1;
-        while (true) {
-            if (sum < s) {
-                right++;
-                if (right == nums.length) {
-                    break;
-                }
-                sum += nums[right];
-            } else {
-                int res = right - left + 1;
-                min = res < min ? res : min;
-                sum -= nums[left];
-                left++;
-            }
-        }
-        return min == nums.length + 1 ? 0 : min;
-    }
 
 }
