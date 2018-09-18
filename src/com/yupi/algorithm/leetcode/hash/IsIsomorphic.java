@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 /**
  * 功能描述：是否为同构字符串
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class IsIsomorphic {
 
     public boolean isIsomorphic(String s, String t) {
         int len = s.length();
