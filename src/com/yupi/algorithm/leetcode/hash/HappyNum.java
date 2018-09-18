@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,7 +10,7 @@ import java.util.Set;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class HappyNum {
 
     public boolean isHappy(int n) {
         Set<Integer> hashSet = new HashSet<>();
