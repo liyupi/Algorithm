@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.Map;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MinSumIndexOfSameValueInTwoLists {
 
     public String[] findRestaurant(String[] list1, String[] list2) {
         Map<String, Integer> map = new HashMap<>();
