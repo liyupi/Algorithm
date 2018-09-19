@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.*;
 
 /**
@@ -7,7 +9,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class GroupAnagrams {
 
     String sortStr(String str) {
         char[] chars = str.toCharArray();
