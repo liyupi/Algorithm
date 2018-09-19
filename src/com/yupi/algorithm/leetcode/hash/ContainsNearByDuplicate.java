@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +10,7 @@ import java.util.Map;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ContainsNearByDuplicate {
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
