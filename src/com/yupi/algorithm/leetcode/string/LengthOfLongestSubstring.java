@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：最长不重复字母字串长度
  *
@@ -5,11 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
-
-    public static void main(String[] args) {
-        new Main().lengthOfLongestSubstring("dvdf");
-    }
+public class LengthOfLongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
         int[] map = new int[256];
