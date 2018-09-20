@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 功能描述：寻找重复子树
@@ -7,7 +12,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindDuplicateSubtrees {
 
     List<TreeNode> nodes = new LinkedList<>();
     Map<String, TreeNode> map = new HashMap<>();
