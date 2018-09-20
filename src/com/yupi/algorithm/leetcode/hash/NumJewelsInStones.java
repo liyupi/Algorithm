@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 /**
  * 功能描述：统计字符串2中出现过字符串1中字符的数量
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class NumJewelsInStones {
 
     public int numJewelsInStones(String J, String S) {
         int[] map = new int[128];
