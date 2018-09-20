@@ -8,7 +8,7 @@ package com.yupi.algorithm.leetcode.string;
  */
 
 public class LengthOfLongestSubstring {
-
+    // map始终记录每个字母最新出现的位置
     public int lengthOfLongestSubstring(String s) {
         int[] map = new int[256];
         int len = s.length();
