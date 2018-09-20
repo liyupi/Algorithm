@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 
 /**
@@ -7,10 +9,10 @@ import java.util.HashMap;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FourSumCount {
 
     public static void main(String[] args) {
-        System.out.println(new Main().fourSumCount(new int[]{-1, -1}, new int[]{-1, 1}, new int[]{-1, 1}, new int[]{1, -1}));
+        System.out.println(new FourSumCount().fourSumCount(new int[]{-1, -1}, new int[]{-1, 1}, new int[]{-1, 1}, new int[]{1, -1}));
     }
 
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
