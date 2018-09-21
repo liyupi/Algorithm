@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：寻找元素的插入位置
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class SearchInsert {
 
     public int searchInsert(int[] nums, int target) {
         if (nums.length == 0) {
