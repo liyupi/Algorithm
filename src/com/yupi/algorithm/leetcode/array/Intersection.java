@@ -1,13 +1,16 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.array;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
- * 功能描述：支持常数时间插入、删除、随机访问操作的数据结构
+ * 功能描述：求两数组交集
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class Intersection {
 
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
