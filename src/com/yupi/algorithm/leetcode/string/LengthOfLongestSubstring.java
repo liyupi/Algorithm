@@ -17,9 +17,9 @@ public class LengthOfLongestSubstring {
         for (int i = 0; i < map.length; i++) {
             map[i] = -1;
         }
-        for (int i = 0; i < len;i++) {
+        for (int i = 0; i < len; i++) {
             int c = s.charAt(i);
-            if (map[c] >= pos){
+            if (map[c] >= pos) {
                 int val = i - pos;
                 max = max > val ? max : val;
                 pos = map[c];
