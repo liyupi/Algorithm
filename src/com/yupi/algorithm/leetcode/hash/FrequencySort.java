@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 功能描述：根据字符出现频率排序
@@ -7,7 +12,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FrequencySort {
 
     public String frequencySort(String s) {
         int len = s.length();
