@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
