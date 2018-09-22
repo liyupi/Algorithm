@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,10 +11,10 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FourSum {
 
     public static void main(String[] args) {
-        new Main().fourSum(new int[]{-1,0,1,2,-1,-4}, -1);
+        new FourSum().fourSum(new int[]{-1,0,1,2,-1,-4}, -1);
     }
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
