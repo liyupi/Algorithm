@@ -1,4 +1,6 @@
-import java.util.*;
+package com.yupi.algorithm.pat.simple_practice;
+
+import java.util.Scanner;
 
 /**
  * 功能描述：素数对猜想
@@ -7,7 +9,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class Main1039 {
 
     static boolean[] notSu = new boolean[100001];
 
