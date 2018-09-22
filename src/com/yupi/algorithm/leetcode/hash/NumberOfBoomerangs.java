@@ -1,4 +1,7 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 功能描述：距离相等的点元组
@@ -7,7 +10,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class NumberOfBoomerangs {
 
     public int numberOfBoomerangs(int[][] points) {
         int sum = 0;
