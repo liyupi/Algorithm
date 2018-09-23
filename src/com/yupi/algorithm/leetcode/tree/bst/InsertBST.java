@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：二叉树插入
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class InsertBST {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(4);
@@ -15,7 +15,7 @@ public class Main {
         root.right = new TreeNode(7);
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(3);
-        new Main().insertIntoBST(root,5);
+        new InsertBST().insertIntoBST(root,5);
     }
 
     public TreeNode insertIntoBST(TreeNode root, int val) {
