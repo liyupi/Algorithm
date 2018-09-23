@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：二叉树删除节点
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class DeleteNode {
 
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
