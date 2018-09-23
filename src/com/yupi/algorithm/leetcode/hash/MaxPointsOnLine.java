@@ -1,4 +1,7 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 功能描述：最大同一直线上的点数
@@ -7,10 +10,10 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MaxPointsOnLine {
 
     public static void main(String[] args) {
-        new Main().maxPoints(new Point[]{new Point(4, 0), new Point(4, -1), new Point(4, 5)});
+        new MaxPointsOnLine().maxPoints(new Point[]{new Point(4, 0), new Point(4, -1), new Point(4, 5)});
     }
 
     public int maxPoints(Point[] points) {
