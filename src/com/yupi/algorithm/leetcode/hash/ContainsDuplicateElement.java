@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -8,10 +10,10 @@ import java.util.TreeSet;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ContainsDuplicateElement {
 
     public static void main(String[] args) {
-        new Main().containsNearbyAlmostDuplicate(new int[]{1, 5, 9, 1, 5, 9}, 2, 3);
+        new ContainsDuplicateElement().containsNearbyAlmostDuplicate(new int[]{1, 5, 9, 1, 5, 9}, 2, 3);
     }
 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
