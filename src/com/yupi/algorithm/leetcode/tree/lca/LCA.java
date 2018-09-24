@@ -1,13 +1,15 @@
+package com.yupi.algorithm.leetcode.tree.lca;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
- * 功能描述：LCA
+ * 功能描述：LCA模板题
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class LCA {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p.val > q.val) {
