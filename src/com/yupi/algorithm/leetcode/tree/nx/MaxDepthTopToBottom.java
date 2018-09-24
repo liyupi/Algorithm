@@ -1,13 +1,13 @@
-import com.yupi.algorithm.leetcode.tree.nx.Node;
+package com.yupi.algorithm.leetcode.tree.nx;
 
 /**
- * 功能描述：N叉树的最大深度（自底向上）
+ * 功能描述：N叉树的最大深度（自顶向下）
  *
  * @author Yupi Li
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MaxDepthTopToBottom {
 
     private int max = 1;
 
