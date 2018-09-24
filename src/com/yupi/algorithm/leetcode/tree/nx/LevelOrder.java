@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.nx.Node;
+package com.yupi.algorithm.leetcode.tree.nx;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,7 +12,7 @@ import java.util.Queue;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class LevelOrder {
 
 
     public List<List<Integer>> levelOrder(Node root) {
