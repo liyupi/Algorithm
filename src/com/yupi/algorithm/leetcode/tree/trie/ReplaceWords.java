@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.trie;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,7 +11,7 @@ import java.util.Map;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ReplaceWords {
 
     Node root = new Node();
 
