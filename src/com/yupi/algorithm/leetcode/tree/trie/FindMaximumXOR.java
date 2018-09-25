@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.trie;
+
 /**
  * 功能描述：数组中两个数的最大异或值
  *
@@ -5,7 +7,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindMaximumXOR {
 
     class Node {
         Node[] child = new Node[2];
@@ -57,8 +59,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
-        main.findMaximumXOR(new int[]{3, 10, 5, 25, 2, 8});
+        new FindMaximumXOR().findMaximumXOR(new int[]{3, 10, 5, 25, 2, 8});
     }
 
 }
