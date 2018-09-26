@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.trie;
+
 import java.util.*;
 
 /**
@@ -7,7 +9,7 @@ import java.util.*;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class FindWords {
 
     private Set<String> res = new HashSet<>();
     private Node root = new Node();
@@ -45,11 +47,13 @@ public class Main {
     }
 
     public List<String> findWords(char[][] board, String[] words) {
+        // 建立前缀树
         int len = words.length;
         for (int i = 0; i < len; i++) {
             insert(words[i]);
         }
         boolean[][] visited = new boolean[board.length][board[0].length];
+        // dfs遍历
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 dfs(board, i, j, root, visited);
@@ -64,6 +68,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new Main().findWords(new char[][]{{'a', 'b'}, {'a', 'a'}}, new String[]{"aba", "baa", "bab", "aaab", "aaa", "aaaa", "aaba"});
+        new FindWords().findWords(new char[][]{{'a', 'b'}, {'a', 'a'}}, new String[]{"aba", "baa", "bab", "aaab", "aaa", "aaaa", "aaba"});
     }
 }
