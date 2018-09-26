@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * 功能描述：数组中两个数的最大异或值
  *
@@ -7,58 +9,55 @@
 
 public class Main {
 
-    class Node {
-        Node[] child = new Node[2];
-    }
+    Set<String> res = new HashSet<>();
+    private Node root = new Node();
+    private int[][] dir = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-    Node root = new Node();
-
-
-    void insert(int num) {
+    void insert(String str) {
+        int len = str.length();
         Node node = root;
-        for (int i = 31; i >= 0; i--) {
-            int val = (num >> i) & 1;
-            if (node.child[val] == null) {
-                node.child[val] = new Node();
+        for (int i = 0; i < len; i++) {
+            char c = str.charAt(i);
+            if (!node.children.containsKey(c)) {
+                node.children.put(c, new Node());
             }
-            node = node.child[val];
+            node = node.children.get(c);
         }
+        node.word = true;
     }
 
-    int search(int num) {
-        int res = 0;
-        Node node = root;
-        for (int i = 31; i >= 0; i--) {
-            int val = (num >> i) & 1;
-            res = res << 1;
-            if (node.child[val] != null) {
-                res++;
-                node = node.child[val];
-            } else {
-                if (node.child[1-val] != null) {
-                    node = node.child[1 - val];
-                } else {
-                    break;
+    void dfs(char[][] board, int x, int y, Node node, String str) {
+        if (node.word) {
+            res.add(str);
+            return;
+        }
+        if (node.children.containsKey(board[x][y])) {
+            str += board[x][y];
+            for (int i = 0; i < dir.length; i++) {
+                int tempX = x + dir[i][0];
+                int tempY = y + dir[i][1];
+                if (tempX < board.length && tempX >= 0 && tempY < board[tempX].length && tempY >= 0) {
+                    dfs(board, tempX, tempY, node.children.get(board[x][y]), str);
                 }
             }
         }
-        return res;
     }
 
-    public int findMaximumXOR(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            insert(nums[i]);
+    public List<String> findWords(char[][] board, String[] words) {
+        int len = words.length;
+        for (int i = 0; i < len; i++) {
+            insert(words[i]);
         }
-        int max = 0;
-        for (int i = 0; i < nums.length; i++) {
-            max = Math.max(search(~nums[i]), max);
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                dfs(board, i, j, root, "");
+            }
         }
-        return max;
+        return new ArrayList<>(res);
     }
 
-    public static void main(String[] args) {
-        Main main = new Main();
-        main.findMaximumXOR(new int[]{3, 10, 5, 25, 2, 8});
+    class Node {
+        Map<Character, Node> children = new HashMap<>();
+        boolean word;
     }
-
 }
