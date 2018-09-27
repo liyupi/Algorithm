@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.Arrays;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Arrays;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int min = Integer.MAX_VALUE;
