@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：螺旋矩阵II
  *
@@ -5,9 +7,9 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class GenerateMatrix2 {
     public static void main(String[] args) {
-        new Main().generateMatrix(3);
+        new GenerateMatrix2().generateMatrix(3);
     }
 
     public int[][] generateMatrix(int n) {
