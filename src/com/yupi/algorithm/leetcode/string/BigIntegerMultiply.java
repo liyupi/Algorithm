@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 import java.util.Arrays;
 
 /**
@@ -7,8 +9,8 @@ import java.util.Arrays;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
-    public static String multiply(String num1, String num2) {
+public class BigIntegerMultiply {
+    private static String multiply(String num1, String num2) {
         if ("0".equals(num1) || "0".equals(num2)) {
             return "0";
         }
