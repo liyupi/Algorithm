@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：回文数
  * <p>
@@ -7,7 +9,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class IsPalindromeNum {
 
     public boolean isPalindrome(int x) {
         if (x == 0) {
