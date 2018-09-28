@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：除自身以外数组的乘积
  *
@@ -8,7 +10,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class ProductExceptSelf {
 
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
