@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：合并k个排序列表
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MergeKLists {
 
 
     public ListNode mergeKLists(ListNode[] lists) {
