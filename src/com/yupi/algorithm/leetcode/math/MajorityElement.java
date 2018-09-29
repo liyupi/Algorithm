@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +10,7 @@ import java.util.Map;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MajorityElement {
 
     // 另一种思路，快排，处于n/2位置的数一定是众数
     public int majorityElement(int[] nums) {
