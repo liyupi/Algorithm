@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -11,8 +13,8 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
-
+public class MaxPathSum {
+    
     // 记录最大值
     private int res = Integer.MIN_VALUE;
 
