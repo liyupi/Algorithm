@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：二叉搜索树中第K小的元素
@@ -9,7 +9,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class KthSmallest {
 
     // 计数器
     private int count = 0;
@@ -34,7 +34,7 @@ public class Main {
         TreeNode treeNode = new TreeNode(3);
         treeNode.left = new TreeNode(1);
         treeNode.right = new TreeNode(2);
-        new Main().kthSmallest(treeNode,1);
+        new KthSmallest().kthSmallest(treeNode,1);
     }
 
 
