@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class Permute {
 
 
     private List<List<Integer>> resList = new ArrayList<>();
