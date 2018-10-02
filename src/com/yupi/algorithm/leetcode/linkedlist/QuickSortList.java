@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：排序链表（快速排序）
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class QuickSortList {
 
     public ListNode sortList(ListNode head) {
         quickSort(head,null);
