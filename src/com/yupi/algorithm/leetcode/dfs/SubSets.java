@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,16 +10,12 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class SubSets {
 
 
     private List<List<Integer>> resList = new ArrayList<>();
 
-    public static void main(String[] args) {
-        new Main().subsets(new int[]{1, 2, 3});
-    }
-
-    public void dfs(int num, int[] nums, List<Integer> temp) {
+    private void dfs(int num, int[] nums, List<Integer> temp) {
         if (num >= nums.length) {
             return;
         }
