@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +13,7 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class SubSets {
 
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> lastList = new ArrayList<>();
