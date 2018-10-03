@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import java.util.List;
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class GrayCode {
 
     public List<Integer> grayCode(int n) {
         List<Integer> list = new ArrayList<>();
