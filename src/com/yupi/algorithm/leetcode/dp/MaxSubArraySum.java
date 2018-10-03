@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：最大子序列和
  *
@@ -9,7 +11,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MaxSubArraySum {
 
     public int maxSubArray(int[] nums) {
         int sum = nums[0];
