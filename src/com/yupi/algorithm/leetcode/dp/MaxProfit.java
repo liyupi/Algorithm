@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：买卖股票的最佳时期
  * <p>
@@ -8,7 +10,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class MaxProfit {
 
     public int maxProfit(int[] prices) {
         if (prices.length < 2) {
