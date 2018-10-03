@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：不同路径
  *
@@ -7,7 +9,7 @@
  * @date 2018/08/29 09:37
  */
 
-public class Main {
+public class UniquePath {
 
     public int uniquePaths(int n, int m) {
         int[][] dp = new int[m + 1][n + 1];
@@ -23,10 +25,6 @@ public class Main {
             }
         }
         return dp[m][n];
-    }
-
-    public static void main(String[] args){
-        System.out.println(new Main().uniquePaths(3,2));
     }
 
 }
