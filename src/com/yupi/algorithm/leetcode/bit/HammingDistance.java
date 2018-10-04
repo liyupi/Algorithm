@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：两个二进制数的不同位数
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class HammingDistance {
 
     public int hammingDistance(int x, int y) {
         int num = x ^ y;
