@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：颠倒二进制位
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class ReverseBits {
 
 
     public int reverseBits(int n) {
