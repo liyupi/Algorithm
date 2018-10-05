@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：是否为3的幂
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class IsPowerOfThree {
 
 
     public boolean isPowerOfThree(int n) {
