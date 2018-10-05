@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：打家劫舍（简单dp）
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class Rob {
 
     public int rob(int[] nums) {
         if (nums.length == 0) {
