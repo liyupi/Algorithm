@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：计数质数（埃式筛法）
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class CountPrimes {
 
 
     public int countPrimes(int n) {
@@ -25,5 +27,5 @@ public class Main {
         }
         return count;
     }
-
+    
 }
