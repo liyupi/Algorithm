@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：最后一个单词的长度
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class LengthOfLastWord {
 
     public int lengthOfLastWord(String s) {
         int len = s.length();
@@ -26,7 +28,7 @@ public class Main {
     }
 
     public static void main(String[] args){
-        System.out.println(new Main().lengthOfLastWord(" "));
+        System.out.println(new LengthOfLastWord().lengthOfLastWord(" "));
     }
 
 }
