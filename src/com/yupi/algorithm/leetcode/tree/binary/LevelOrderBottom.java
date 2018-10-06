@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 import java.util.*;
@@ -11,7 +13,7 @@ import java.util.*;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class LevelOrderBottom {
 
     private Stack<List<Integer>> stack = new Stack<>();
 
