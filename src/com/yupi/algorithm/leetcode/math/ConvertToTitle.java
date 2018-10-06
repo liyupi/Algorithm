@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.math;
 
 /**
  * 功能描述：数字转字母序列
@@ -9,7 +9,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class ConvertToTitle {
 
     public String convertToTitle(int n) {
         String res = "";
