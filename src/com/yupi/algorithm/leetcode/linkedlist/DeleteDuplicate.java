@@ -1,7 +1,9 @@
 package com.yupi.algorithm.leetcode.linkedlist;
 
+import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+
 /**
- * 功能描述：删除链表中重复节点
+ * 功能描述：相同的树
  * 
  * 注意陷阱：如"aaa   "
  *
@@ -11,19 +13,14 @@ package com.yupi.algorithm.leetcode.linkedlist;
 
 public class DeleteDuplicate {
 
-    public ListNode deleteDuplicates(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
         }
-        ListNode pos = head;
-        while (pos.next != null) {
-            if (pos.val == pos.next.val) {
-                pos.next = pos.next.next;
-            } else {
-                pos = pos.next;
-            }
+        if (p == null || q == null || p.val != q.val) {
+            return false;
         }
-        return head;
+        return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
 
 }
