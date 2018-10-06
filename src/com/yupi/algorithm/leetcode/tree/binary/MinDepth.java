@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -9,7 +11,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class MinDepth {
 
     public int minDepth(TreeNode root) {
         if (root == null) {
