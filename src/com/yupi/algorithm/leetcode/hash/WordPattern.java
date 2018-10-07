@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +10,7 @@ import java.util.Map;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class WordPattern {
 
     public boolean wordPattern(String pattern, String str) {
         Map<Character,String> map = new HashMap<>();
