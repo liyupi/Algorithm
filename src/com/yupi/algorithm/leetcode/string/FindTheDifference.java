@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：字符串找不同
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class FindTheDifference {
 
     public char findTheDifference(String s, String t) {
         int[] chars = new int[26];
