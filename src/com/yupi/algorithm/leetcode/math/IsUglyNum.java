@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：丑数
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class IsUglyNum {
 
     public boolean isUgly(int num) {
         if (num < 1) {
