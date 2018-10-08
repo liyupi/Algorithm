@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：构造最长回文串
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class BuildLongestPalindrome {
 
     public int longestPalindrome(String s) {
         int[] map = new int[123];
