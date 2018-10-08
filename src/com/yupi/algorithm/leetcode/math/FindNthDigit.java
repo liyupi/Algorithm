@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：第N个数字
  *
@@ -11,12 +13,8 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class FindNthDigit {
 
-
-    public static void main(String[] args) {
-        new Main().findNthDigit(2701);
-    }
 
     public int findNthDigit(int n) {
         int len = 1;
