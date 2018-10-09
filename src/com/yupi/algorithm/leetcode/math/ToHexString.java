@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：整数转16进制字符串
  * <p>
@@ -8,11 +10,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
-
-    public static void main(String[] args) {
-        System.out.println(new Main().toHex(-2));
-    }
+public class ToHexString {
 
 /*  方法1：按位取余
 
@@ -40,6 +38,9 @@ public class Main {
         return res;
     }*/
 
+    /**
+     * 方法2：位运算
+     */
     public String toHex(int num) {
         if (num == 0) {
             return "0";
