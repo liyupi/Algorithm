@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.stack.heap;
+
 import java.util.PriorityQueue;
 
 /**
@@ -9,7 +11,7 @@ import java.util.PriorityQueue;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class ThirdLargest {
 
     PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 
