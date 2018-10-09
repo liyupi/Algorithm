@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：字符串相加
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class AddStrings {
 
     public String addStrings(String num1, String num2) {
         int pos1 = num1.length() - 1;
