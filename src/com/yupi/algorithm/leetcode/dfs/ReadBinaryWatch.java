@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +12,7 @@ import java.util.List;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class ReadBinaryWatch {
 
     boolean[] visited = new boolean[10];
     List<String> list = new ArrayList<>();
