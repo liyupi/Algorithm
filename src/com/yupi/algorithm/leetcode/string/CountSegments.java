@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：字符串中的单词数
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class CountSegments {
 
     boolean isSpace(char c) {
         return c == 32;
