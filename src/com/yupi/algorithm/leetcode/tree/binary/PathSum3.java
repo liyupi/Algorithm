@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -9,7 +11,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class PathSum3 {
 
 
     public int pathSum(TreeNode root, int sum) {
@@ -36,13 +38,4 @@ public class Main {
         return pathNum;
     }
 
-
-    public static void main(String[] args) {
-        TreeNode node = new TreeNode(1);
-        node.right = new TreeNode(2);
-        node.right.right = new TreeNode(3);
-        node.right.right.right = new TreeNode(4);
-        node.right.right.right.right = new TreeNode(5);
-        new Main().pathSum(node, 3);
-    }
 }
