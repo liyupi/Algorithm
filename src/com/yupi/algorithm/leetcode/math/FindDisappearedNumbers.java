@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +16,7 @@ import java.util.List;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindDisappearedNumbers {
 
 
     public List<Integer> findDisappearedNumbers(int[] nums) {
