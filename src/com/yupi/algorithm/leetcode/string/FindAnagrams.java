@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +17,7 @@ import java.util.List;
  * @date 2018/10/04 09:37
  */
 
-public class Main {
+public class FindAnagrams {
 
 
     public List<Integer> findAnagrams(String s, String p) {
