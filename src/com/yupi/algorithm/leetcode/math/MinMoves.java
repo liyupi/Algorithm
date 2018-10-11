@@ -2,7 +2,7 @@ package com.yupi.algorithm.leetcode.math;
 
 /**
  * 功能描述：最小移动次数使数组各元素相等
- *
+ * <p>
  * 思路：逆向思维，每次相当于最大的数-1，那么移动次数和为每个元素减去最小元素的和
  *
  * @author Yupi Li
@@ -10,7 +10,6 @@ package com.yupi.algorithm.leetcode.math;
  */
 
 public class MinMoves {
-
 
     public int minMoves(int[] nums) {
         int min = nums[0];
@@ -21,5 +20,5 @@ public class MinMoves {
         }
         return sum - nums.length * min;
     }
-    
+
 }
