@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：岛屿的周长
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class IslandPerieter {
 
     public int islandPerimeter(int[][] grid) {
         int res = 0;
