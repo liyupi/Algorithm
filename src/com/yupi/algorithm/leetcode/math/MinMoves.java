@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：最小移动次数使数组各元素相等
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class MinMoves {
 
 
     public int minMoves(int[] nums) {
@@ -19,5 +21,5 @@ public class Main {
         }
         return sum - nums.length * min;
     }
-
+    
 }
