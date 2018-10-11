@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：求补数
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindComplement {
 
     public int findComplement(int num) {
         return ~num & (Integer.highestOneBit(num) - 1);
