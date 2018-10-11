@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：原地算法压缩字符串
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class Compress {
 
 
     public int compress(char[] chars) {
@@ -46,7 +48,4 @@ public class Main {
         return pos;
     }
 
-    public static void main(String[] args){
-        new Main().compress(new char[]{'a','a','a','a','b','a'});
-    }
 }
