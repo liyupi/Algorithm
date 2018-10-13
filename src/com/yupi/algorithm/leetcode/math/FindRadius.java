@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.Arrays;
 
 /**
@@ -10,7 +12,7 @@ import java.util.Arrays;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindRadius {
 
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(houses);
