@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：构造矩形
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class ConstructRectangle {
 
     public int[] constructRectangle(int area) {
         // 因为W>=L，因此height必小于等于sqrt(area)
