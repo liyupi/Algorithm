@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 /**
  * 功能描述：下一个最大元素
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class NextGreaterElement {
 
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] res = new int[nums1.length];
@@ -30,7 +32,4 @@ public class Main {
         return res;
     }
 
-    public static void main(String[] args) {
-        new Main().nextGreaterElement(new int[]{4,1,2},new int[]{1,3,4,2});
-    }
 }
