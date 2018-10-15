@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：转换为7进制
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class ConvertToBase7 {
 
     public String convertToBase7(int num) {
         if (num == 0) {
