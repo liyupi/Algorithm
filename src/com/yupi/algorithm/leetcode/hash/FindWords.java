@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 功能描述：键盘行
@@ -9,7 +14,7 @@ import java.util.*;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindWords {
 
     public String[] findWords(String[] words) {
         Map<Character, Integer> map = new HashMap<>();
