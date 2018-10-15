@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindMode {
 
     int pre = -1;
     int count = 0;
@@ -54,7 +54,7 @@ public class Main {
         TreeNode node = new TreeNode(2);
         node.left = new TreeNode(1);
         node.right = new TreeNode(2);
-        new Main().findMode(node);
+        new FindMode().findMode(node);
     }
 
 }
