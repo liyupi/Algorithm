@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：完美数
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class CheckPerfectNumber {
 
     public boolean checkPerfectNumber(int num) {
         if (num == 1) {
