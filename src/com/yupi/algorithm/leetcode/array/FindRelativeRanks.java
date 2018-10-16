@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：相对排名
  *
@@ -11,7 +13,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindRelativeRanks {
 
     public String[] findRelativeRanks(int[] nums) {
         int max = 0;
