@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：给定位数的最大回文乘积
  *
@@ -9,7 +11,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class LargestPalindrome {
 
     public int largestPalindrome(int n) {
         if (n == 1) {
@@ -27,10 +29,6 @@ public class Main {
             }
         }
         return 0;
-    }
-
-    public static void main(String[] args) {
-        new Main().largestPalindrome(2);
     }
 
 }
