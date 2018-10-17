@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：最长特殊子序列I
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindLUSlength {
 
     public int findLUSlength(String a, String b) {
         int lenA = a.length();
