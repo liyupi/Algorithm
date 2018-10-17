@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：二叉搜索树的最小绝对差
@@ -9,7 +9,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class GetMinimumDifference {
 
     private int min = Integer.MAX_VALUE;
     private int val = -1;
