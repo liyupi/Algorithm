@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +15,7 @@ import java.util.Map;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindPairs {
 
     public int findPairs(int[] nums, int k) {
         if (k < 0) {
