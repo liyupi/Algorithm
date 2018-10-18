@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：字符串部分反转（水题）
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class ReversePartStr {
 
     public String reverseStr(String s, int k) {
         char[] chars = s.toCharArray();
@@ -27,10 +29,6 @@ public class Main {
             start++;
             end--;
         }
-    }
-
-    public static void main(String[] args){
-        new Main().reverseStr("abcdefg",2);
     }
 
 }
