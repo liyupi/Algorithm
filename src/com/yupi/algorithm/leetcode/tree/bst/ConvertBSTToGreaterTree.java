@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：二叉搜索树转为累加树
@@ -9,7 +9,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class ConvertBSTToGreaterTree {
 
     private int num = 0;
 
