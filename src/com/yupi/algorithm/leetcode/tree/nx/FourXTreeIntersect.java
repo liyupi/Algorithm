@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.nx;
+
 /**
  * 功能描述：四叉树交集
  *
@@ -8,7 +10,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FourXTreeIntersect {
 
     public Node intersect(Node quadTree1, Node quadTree2) {
         if (quadTree1.isLeaf) {
