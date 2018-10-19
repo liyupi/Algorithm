@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -9,7 +11,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class IsSubTree {
 
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null) {
