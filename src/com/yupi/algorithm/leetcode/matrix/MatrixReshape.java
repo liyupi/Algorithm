@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：矩阵重塑
  *
@@ -5,7 +7,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class MatrixReshape {
 
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         if (nums.length == 0) {
