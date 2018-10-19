@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -7,7 +9,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class Tree2Str {
 
 
     public String tree2str(TreeNode t) {
