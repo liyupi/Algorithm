@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,7 +12,7 @@ import java.util.Map;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class DistributeCandies {
 
     public int distributeCandies(int[] candies) {
         Map<Integer,Integer> map = new HashMap<>();
