@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +13,7 @@ import java.util.Map;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindLHS {
 
     public int findLHS(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
