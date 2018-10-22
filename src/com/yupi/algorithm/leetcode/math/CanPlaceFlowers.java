@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：种花问题
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class CanPlaceFlowers {
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int plant = 0;
