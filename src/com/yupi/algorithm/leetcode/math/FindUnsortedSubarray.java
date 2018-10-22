@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：最长无序连续子数组
  *
@@ -9,7 +11,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class FindUnsortedSubarray {
 
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
