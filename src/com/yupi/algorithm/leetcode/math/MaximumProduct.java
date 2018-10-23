@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.Arrays;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Arrays;
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class MaximumProduct {
 
     public int maximumProduct(int[] nums) {
         Arrays.sort(nums);
