@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：平方数之和
  *
@@ -7,7 +9,7 @@
  * @date 2018/10/11 09:37
  */
 
-public class Main {
+public class JudgeSquareSum {
 
     public boolean judgeSquareSum(int c) {
         int max = (int) Math.sqrt(c / 2);
