@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 import java.util.ArrayList;
@@ -7,10 +9,10 @@ import java.util.Queue;
 
 /**
  * 功能描述：二叉树的层平均值
- *
+ * 
  */
 
-public class Main {
+public class AverageOfLevels {
 
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> list = new ArrayList<>();
