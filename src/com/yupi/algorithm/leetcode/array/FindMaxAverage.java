@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：子数组最大平均数
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class FindMaxAverage {
 
     public double findMaxAverage(int[] nums, int k) {
         double sum = 0;
