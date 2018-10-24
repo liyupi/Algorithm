@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：错误的集合
  *
@@ -5,7 +7,7 @@
  * 再利用1-n集合的和找到缺失的数，空间复杂度o(1)，或者使用map记录，空间复杂度o（n），时间复杂度都是o(n)
  */
 
-public class Main {
+public class FindErrorNums {
 
     public int[] findErrorNums(int[] nums) {
         long sum = nums.length * (nums.length + 1) / 2;
