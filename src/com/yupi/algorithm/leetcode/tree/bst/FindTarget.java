@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  *
  */
 
-public class Main {
+public class FindTarget {
 
     private Map<Integer,Integer> map = new HashMap<>();
 
