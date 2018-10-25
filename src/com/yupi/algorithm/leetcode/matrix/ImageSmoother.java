@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：图片平滑器
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class ImageSmoother {
 
     int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}};
 
