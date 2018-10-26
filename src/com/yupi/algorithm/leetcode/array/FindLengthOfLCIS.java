@@ -1,8 +1,10 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：最长连续递增子序列
  */
 
-public class Main {
+public class FindLengthOfLCIS {
 
     public int findLengthOfLCIS(int[] nums) {
         int max = 1;
