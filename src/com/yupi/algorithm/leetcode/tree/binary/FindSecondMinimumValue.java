@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
  * 功能描述：二叉树的第二小节点
  */
 
-public class Main {
+public class FindSecondMinimumValue {
 
     private int min = Integer.MAX_VALUE;
     private int nextMin = Integer.MAX_VALUE;
