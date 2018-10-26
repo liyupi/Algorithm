@@ -1,8 +1,10 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：非递减数列
  */
 
-public class Main {
+public class CheckPossibility {
 
     public boolean checkPossibility(int[] nums) {
         if (nums.length < 2) {
