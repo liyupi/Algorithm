@@ -1,10 +1,10 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 /**
  * 功能描述：修剪二叉搜索树
  */
 
-public class Main {
+public class TrimBST {
 
     public TreeNode trimBST(TreeNode root, int L, int R) {
         if (root == null) {
