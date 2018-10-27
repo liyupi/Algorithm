@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 /**
  * 功能描述：最大面积
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class MaxAreaOfIsland {
 
     private int[][] dir = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
