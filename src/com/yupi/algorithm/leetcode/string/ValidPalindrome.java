@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
- * 功能描述：验证回文字符串
+ * 功能描述：验证回文字符串II
  *
  * 思路：去掉的字符可能是左边也可能是右边，分别判断去掉后是否为回文即可
  */
 
-public class Main {
+public class ValidPalindrome {
 
     public boolean validPalindrome(String s) {
         int left = 0;
