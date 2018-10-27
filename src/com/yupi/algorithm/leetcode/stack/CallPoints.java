@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.stack;
+
 import java.util.Stack;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Stack;
  *
  */
 
-public class Main {
+public class CallPoints {
 
     public int calPoints(String[] ops) {
         Stack<Integer> stack = new Stack<>();
