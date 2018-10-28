@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -9,7 +11,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * 需要新建一个函数，返回左子树/右子树最长路径中较大的一个（而不是返回两边）
  */
 
-public class Main {
+public class LongestUnivaluePath {
 
     private int max = Integer.MIN_VALUE;
 
