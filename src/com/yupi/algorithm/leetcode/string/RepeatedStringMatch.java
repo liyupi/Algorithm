@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：最大面积
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class RepeatedStringMatch {
 
     public int repeatedStringMatch(String A, String B) {
         int lenA = A.length();
