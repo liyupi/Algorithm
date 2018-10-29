@@ -1,10 +1,11 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：交替位二进制数
  *
  * 思路：利用异或和与运算可快速解决
  */
-
-public class Main {
+public class HasAlternatingBits {
 
     public boolean hasAlternatingBits(int n) {
         n = n ^ (n >>> 1);
@@ -26,4 +27,5 @@ public class Main {
         }
         return true;*/
     }
+
 }
