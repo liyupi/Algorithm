@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.Map;
  *
  */
 
-public class Main {
+public class FindShortestSubArray {
 
     public int findShortestSubArray(int[] nums) {
         Map<Integer, Node> map = new HashMap<>();
