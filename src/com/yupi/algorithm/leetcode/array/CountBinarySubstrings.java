@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：计数二进制子串
  *
  * 思路：遍历，每次结果增加出现连续1的数目和前面连续0数目的最小值
  */
 
-public class Main {
+public class CountBinarySubstrings {
 
     public int countBinarySubstrings(String s) {
         int[] num = new int[2];
