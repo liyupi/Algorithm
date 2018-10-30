@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 /**
  * 功能描述：1比特与2比特字符
  * <p>
  * 思路：直接循环，有1开头的数必定右移2位，0开头的数必定右移1位，看剩余1位还是0位即可
  */
 
-public class Main {
+public class IsOneBitCharacter {
 
     // 换成循环也一样
     boolean dfs(int[] bits, int pos) {
