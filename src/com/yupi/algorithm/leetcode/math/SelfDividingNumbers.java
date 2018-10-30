@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * 思路：水题，遍历即可
  */
 
-public class Main {
+public class SelfDividingNumbers {
 
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> list = new ArrayList<>();
