@@ -1,4 +1,7 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.tree.trie;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 功能描述：寻找字典中的最长单词
@@ -6,7 +9,7 @@ import java.util.*;
  * 思路：（1）前缀树（2）快排之后，利用集合，直接依次判断除去最后一位的子串是否在之前的集合中即可
  */
 
-public class Main {
+public class LongestWord {
 
     /* 思路2
     public String longestWord(String[] words) {
@@ -69,10 +72,6 @@ public class Main {
             }
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        new Main().longestWord(new String[]{"gbra","jy","pl","zn","gb","j","jyh","jyhm","plr","znicn","p","gbr","zni","znic","aq"});
     }
 
 }
