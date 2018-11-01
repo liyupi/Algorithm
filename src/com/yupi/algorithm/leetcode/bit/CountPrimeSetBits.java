@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：二进制表示中质数个计算置位
  * <p>
@@ -5,7 +7,7 @@
  * 小技巧：Integer.bitCount(num); Long.bitCount(num); new BigInteger().bitCount()都能统计计算置位数;
  */
 
-public class Main {
+public class CountPrimeSetBits {
 
     private boolean[] prime = new boolean[]{false, false, true, true, false, true, false, true,
             false, false, false, true, false, true, false, false, false, true, false, true, false, false, false, true};
