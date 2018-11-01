@@ -1,10 +1,13 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：
  * <p>
- * 思路：水题，遍历即可
+ * 思路：dp[i]表示走到第位置的最小花费，状态转移方程：dp[i] = Math.min(dp[i - 1], dp[i - 2]) + cost[i]
+ * 由于最后一步不花费，结果为dp[last-2]和dp[last-1]中的较小值
  */
 
-public class Main {
+public class MinCostClimbingStaris {
 
     public int minCostClimbingStairs(int[] cost) {
         int[] dp = new int[cost.length + 1];
@@ -15,4 +18,5 @@ public class Main {
         }
         return Math.min(dp[cost.length-2], dp[cost.length - 1]);
     }
+
 }
