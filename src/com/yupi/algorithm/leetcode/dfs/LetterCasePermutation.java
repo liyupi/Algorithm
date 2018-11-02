@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  *
  */
 
-public class Main {
+public class LetterCasePermutation {
 
     private List<String> list = new ArrayList<>();
 
