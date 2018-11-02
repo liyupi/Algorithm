@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：旋转字符串
  * 思路：如果B是由A旋转而得，则B + B一定包含A
  */
 
-public class Main {
+public class RotateString {
 
 /*    public boolean rotateString(String A, String B) {
         StringBuilder sb = new StringBuilder(A);
