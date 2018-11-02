@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：旋转数字
  * 思路：如果是非法数字，可以直接跳过一些数（比如300-399开头是3，可直接跳过301-399的遍历）
  */
 
-public class Main {
+public class RotatedDigits {
 
     public int rotatedDigits(int N) {
         int res = 0;
