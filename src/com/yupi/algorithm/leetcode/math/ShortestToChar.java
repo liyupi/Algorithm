@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：字符的最短距离
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class ShortestToChar {
     public int[] shortestToChar(String S, char C) {
         int[] cPos = new int[S.length()];
         int pos = 0;
