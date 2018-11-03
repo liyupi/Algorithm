@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -5,7 +7,7 @@ import java.util.Set;
  * 功能描述：不同摩斯密码的个数
  */
 
-public class Main {
+public class UniqueMorseRepresentations {
 
     private String[] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
 
