@@ -1,9 +1,10 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
- * 功能描述：不同摩斯密码的个数
+ * 功能描述：写字符串需要的行数
  */
 
-public class Main {
-
+public class NumberOfLines {
     public int[] numberOfLines(int[] widths, String S) {
         if ("".equals(S)) {
             return new int[]{1, 0};
