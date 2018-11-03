@@ -8,6 +8,7 @@ package com.yupi.algorithm.leetcode.math;
  */
 
 public class ShortestToChar {
+
     public int[] shortestToChar(String S, char C) {
         int[] cPos = new int[S.length()];
         int pos = 0;
