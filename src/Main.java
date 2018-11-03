@@ -6,25 +6,5 @@
  */
 
 public class Main {
-    public int[] shortestToChar(String S, char C) {
-        int[] cPos = new int[S.length()];
-        int pos = 0;
-        for (int i = 0; i < S.length(); i++) {
-            if (S.charAt(i) == C) {
-                cPos[pos++] = i;
-            }
-        }
-        int nPos = 0;
-        int[] res = new int[S.length()];
-        for (int i = 0; i < S.length(); i++) {
-            int dis1 = Math.abs(cPos[nPos] - i);
-            if (nPos + 1 < pos && cPos[nPos + 1] - i < dis1) {
-                nPos++;
-                res[i] = cPos[nPos] - i;
-            } else {
-                res[i] = dis1;
-            }
-        }
-        return res;
-    }
+
 }
