@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.List;
  * 思路：双指针
  */
 
-public class Main {
+public class LargeGroupPositions {
 
     public List<List<Integer>> largeGroupPositions(String S) {
         List<List<Integer>> list = new ArrayList<>();
