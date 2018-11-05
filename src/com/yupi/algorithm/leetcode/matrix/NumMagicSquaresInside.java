@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,7 +9,7 @@ import java.util.Set;
  * 思路：如果中间的数不为5，则必定不是幻方
  */
 
-public class Main {
+public class NumMagicSquaresInside {
 
     public int numMagicSquaresInside(int[][] grid) {
         int sum = 0;
@@ -64,7 +66,4 @@ public class Main {
         return true;
     }
 
-    public static void main(String[] args){
-        new Main().numMagicSquaresInside(new int[][]{{4,3,8,4},{9,5,1,9},{2,7,6,2}});
-    }
 }
