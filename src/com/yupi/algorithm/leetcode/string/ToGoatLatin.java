@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：Goal Latin
  *
  * 思路：简单的字符串分割处理
  */
 
-public class Main {
+public class ToGoatLatin {
 
     public String toGoatLatin(String S) {
         String[] strings = S.split(" ");
