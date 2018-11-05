@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Collections;
+package com.yupi.algorithm.leetcode.array;
 
 /**
  * 功能描述：旋转01数组
@@ -7,7 +6,7 @@ import java.util.Collections;
  * 思路：可直接new一个数组并直接从尾部复制（省去了交换的时间）
  */
 
-public class Main {
+public class FlipAndInvertImage {
 
     public int[][] flipAndInvertImage(int[][] A) {
         int[][] B = new int[A.length][A[0].length];
