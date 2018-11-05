@@ -1,13 +1,14 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 功能描述：最常见的单词
  * <p>
  * 思路：map
  */
-
-public class Main {
-
+public class MostCommonWord {
 
     public String mostCommonWord(String paragraph, String[] banned) {
         Map<String, Integer> map = new HashMap<>();
