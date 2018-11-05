@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：最大的三角形面积
  * <p>
  * 思路：公式：S = 0.5 * Math.abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
  */
 
-public class Main {
+public class LargestTriangleArea {
 
 
     public double largestTriangleArea(int[][] points) {
