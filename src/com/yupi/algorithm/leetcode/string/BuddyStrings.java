@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：亲密字符串
  *
@@ -5,7 +7,7 @@
  * 如果两个字符串完全相同则必须有一个字母出现至少两次（可交换）才算亲密
  */
 
-public class Main {
+public class BuddyStrings {
 
     public boolean buddyStrings(String A, String B) {
         if (A.length() != B.length()) {
