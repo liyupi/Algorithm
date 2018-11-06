@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.List;
  * 功能描述：相似叶子
  */
 
-public class Main {
+public class LeafSimilar {
 
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> list1 = new ArrayList<>();
