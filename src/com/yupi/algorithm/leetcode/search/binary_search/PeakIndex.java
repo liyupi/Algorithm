@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：找山峰
  *
  * 思路：二分查找模板题
  */
 
-public class Main {
+public class PeakIndex {
 
     public int peakIndexInMountainArray(int[] A) {
         int left = 0;
