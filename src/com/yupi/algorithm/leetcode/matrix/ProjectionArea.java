@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：三维形体投影面积
  *
  * 思路：sum = 叠加大于0的块数 + 每行的最大值和 + 每列的最大值和
  */
 
-public class Main {
+public class ProjectionArea {
 
     public int projectionArea(int[][] grid) {
         int sum = 0;
