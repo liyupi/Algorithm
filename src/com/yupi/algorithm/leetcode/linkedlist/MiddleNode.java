@@ -1,10 +1,10 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：找链表的中间节点
  */
 
-public class Main {
+public class MiddleNode {
 
     public ListNode middleNode(ListNode head) {
         ListNode faster = head;
