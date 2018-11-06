@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：转置矩阵
  *
  * 思路：水题
  */
 
-public class Main {
+public class TransposeMatrix {
 
     public int[][] transpose(int[][] A) {
         int[][] res = new int[A[0].length][A.length];
