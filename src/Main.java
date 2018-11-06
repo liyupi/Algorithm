@@ -1,70 +1,29 @@
-import java.util.HashSet;
-import java.util.Set;
-
 /**
- * 功能描述：矩阵中的幻方
+ * 功能描述：比较含退格的字符串
  *
- * 思路：如果中间的数不为5，则必定不是幻方
+ * 思路：比较压缩后的字符串是否相等即可
  */
 
 public class Main {
 
-    public int numMagicSquaresInside(int[][] grid) {
-        int sum = 0;
-        for (int i = 2; i < grid.length; i++) {
-            for (int j = 2; j < grid[0].length; j++) {
-                if (isMagicSquare(grid,i,j)) {
-                   sum++;
-                }
-            }
-        }
-        return sum;
+    public boolean backspaceCompare(String S, String T) {
+        return compress(S).equals(compress(T));
     }
 
-    private boolean isMagicSquare(int[][] grid, int i, int j) {
-        Set<Integer> set = new HashSet<>();
-        for (int k = i - 2; k <= i; k++) {
-            for (int l = j - 2; l <= j; l++) {
-                if (grid[k][l] > 9 || grid[k][l] < 1) {
-                    return false;
-                }
-                set.add(grid[k][l]);
+    String compress(String s) {
+        int delete = 0;
+        int pos = s.length() - 1;
+        String res = "";
+        while (pos >= 0) {
+            if (s.charAt(pos) != '#' && delete == 0) {
+                res = s.charAt(pos) + res;
+            } else if (s.charAt(pos) == '#') {
+                delete++;
+            } else {
+                delete--;
             }
+            pos--;
         }
-        if (set.size() != 9) {
-            return false;
-        }
-        if (grid[i - 1][j - 1] != 5) {
-            return false;
-        }
-        if (grid[i - 2][j - 2] + grid[i - 2][j - 1] + grid[i - 2][j] != 15) {
-            return false;
-        }
-        if (grid[i - 1][j - 2] + grid[i - 1][j] != 10) {
-            return false;
-        }
-        if (grid[i][j - 2] + grid[i][j - 1] + grid[i][j] != 15) {
-            return false;
-        }
-        if (grid[i][j] + grid[i - 1][j] + grid[i - 2][j] != 15) {
-            return false;
-        }
-        if (grid[i - 2][j - 1] + grid[i][j - 1] != 10) {
-            return false;
-        }
-        if (grid[i][j - 2] + grid[i - 1][j - 2] + grid[i - 2][j - 2] != 15) {
-            return false;
-        }
-        if (grid[i][j] + grid[i - 2][j - 2] != 10) {
-            return false;
-        }
-        if (grid[i][j - 2] + grid[i - 2][j] != 10) {
-            return false;
-        }
-        return true;
-    }
-
-    public static void main(String[] args){
-        new Main().numMagicSquaresInside(new int[][]{{4,3,8,4},{9,5,1,9},{2,7,6,2}});
+        return res;
     }
 }

@@ -1,4 +1,4 @@
-package com.yupi.algorithm.leetcode.matrix;
+package com.yupi.algorithm.leetcode.string;
 
 /**
  * 功能描述：比较含退格的字符串
@@ -6,7 +6,7 @@ package com.yupi.algorithm.leetcode.matrix;
  * 思路：比较压缩后的字符串是否相等即可
  */
 
-public class NumMagicSquaresInside {
+public class BackspaceCompare {
 
     public boolean backspaceCompare(String S, String T) {
         return compress(S).equals(compress(T));
@@ -28,5 +28,4 @@ public class NumMagicSquaresInside {
         }
         return res;
     }
-
 }
