@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：和最近人的最大距离
  *
  * 思路：注意判断最左和最右位置，双指针法即可
  */
 
-public class Main {
+public class MaxDistToClosest {
 
     public int maxDistToClosest(int[] seats) {
         int max = 0;
