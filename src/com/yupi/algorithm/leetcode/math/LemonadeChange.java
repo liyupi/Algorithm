@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：柠檬水找零
  *
  * 思路：记录可找的零钱即可
  */
 
-public class Main {
+public class LemonadeChange {
 
     public boolean lemonadeChange(int[] bills) {
         int[] leftMoney = new int[2];
