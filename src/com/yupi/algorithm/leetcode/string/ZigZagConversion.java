@@ -1,8 +1,10 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：Z字形变换
  */
 
-public class Main {
+public class ZigZagConversion {
 
     public String convert(String s, int numRows) {
         if (numRows == 1) {
