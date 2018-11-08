@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：两数相除（不使用乘除法）
  *
@@ -5,7 +7,7 @@
  *
  */
 
-public class Main {
+public class Divide {
 
     public int divide(int dividend, int divisor) {
         if (dividend == Integer.MIN_VALUE && divisor == -1 || divisor == 0) {
