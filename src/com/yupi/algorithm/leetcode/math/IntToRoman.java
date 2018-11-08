@@ -1,8 +1,10 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：整数转罗马数字
  */
 
-public class Main {
+public class IntToRoman {
 
     public String intToRoman(int num) {
         String str = "IVXLCDM";
