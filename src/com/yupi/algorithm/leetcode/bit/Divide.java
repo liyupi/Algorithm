@@ -2,9 +2,8 @@ package com.yupi.algorithm.leetcode.bit;
 
 /**
  * 功能描述：两数相除（不使用乘除法）
- *
+ * <p>
  * 思路：使用位运算，结果为被除数包含多少个除数，每次将除数个数*2来加速
- *
  */
 
 public class Divide {
@@ -18,8 +17,8 @@ public class Divide {
             negative = true;
         }
         int res = 0;
-        long left = Math.abs((long)dividend);
-        long dvr = Math.abs((long)divisor);
+        long left = Math.abs((long) dividend);
+        long dvr = Math.abs((long) divisor);
         while (left >= dvr) {
             long temp = dvr;
             int shift = 1;

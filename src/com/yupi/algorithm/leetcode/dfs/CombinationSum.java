@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.List;
  * 思路：dfs用于遍历所有可能解
  */
 
-public class Main {
+public class CombinationSum {
 
     List<List<Integer>> res = new ArrayList<>();
 
