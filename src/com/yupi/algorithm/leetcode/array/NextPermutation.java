@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：找全排列的下一个排列
  * <p>
@@ -6,7 +8,7 @@
  * （3）将终止位置后的数组调整为正序
  */
 
-public class Main {
+public class NextPermutation {
 
     public void nextPermutation(int[] nums) {
         int pos = findReversePos(nums);
