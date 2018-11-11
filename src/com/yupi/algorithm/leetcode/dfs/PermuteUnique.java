@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.dfs;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * 功能描述：全排列II
@@ -7,7 +12,7 @@ import java.util.*;
  * dfs的过程中需要添加判断，拿集合记录是否有重复的元素和起始元素交换过
  */
 
-public class Main {
+public class PermuteUnique {
 
     List<List<Integer>> res = new ArrayList<>();
 
