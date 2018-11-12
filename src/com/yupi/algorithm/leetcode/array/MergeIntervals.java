@@ -1,4 +1,8 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * 功能描述：合并区间
@@ -6,7 +10,7 @@ import java.util.*;
  * 思路：快排所有区间的开始和结束，得到两个有序数组，然后交错比较
  */
 
-public class Main {
+public class MergeIntervals {
     public class Interval {
         int start;
         int end;
