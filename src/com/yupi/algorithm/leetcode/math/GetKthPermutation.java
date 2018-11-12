@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：求第k个全排列
  * <p>
@@ -16,7 +18,7 @@
  * kn = kn-1 % 0!
  */
 
-public class Main {
+public class GetKthPermutation {
     public String getPermutation(int n, int k) {
         int[] factorial =  new int[n + 1];
         factorial[0] = 1;
