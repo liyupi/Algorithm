@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：求不同的路径数量
  *
  * 思路：动态规划（不要用bfs，有重复），遇到障碍物将当前格dp值设置为0即可
  */
 
-public class Main {
+public class UniquePathsWithObstacles {
 
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
