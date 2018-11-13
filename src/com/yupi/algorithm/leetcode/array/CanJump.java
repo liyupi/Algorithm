@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：跳跃游戏
  * <p>
  * 思路：一次遍历，记录每次能达到的最大位置，若达不到当前位置，返回false
  */
 
-public class Main {
+public class CanJump {
 
     public boolean canJump(int[] nums) {
         int maxPos = 0;
