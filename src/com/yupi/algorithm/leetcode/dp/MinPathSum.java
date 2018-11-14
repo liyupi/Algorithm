@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：最小路径和
  * <p>
  * 思路：dp即可，若用dfs注意重复
  */
 
-public class Main {
+public class MinPathSum {
 
     public int minPathSum(int[][] grid) {
         int m = grid.length;
