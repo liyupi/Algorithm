@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：矩阵置零
  * <p>
@@ -6,7 +8,7 @@
  * 注意一种情况：首行/首列本来没0，但是置换后出现了0，会错误，因此需要两个条件判断首行首列原本是否包含0
  */
 
-public class Main {
+public class SetZeros {
 
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
