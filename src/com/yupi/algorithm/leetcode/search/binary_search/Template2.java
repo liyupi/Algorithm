@@ -1,7 +1,5 @@
 package com.yupi.algorithm.leetcode.search.binary_search;
 
-import java.util.Scanner;
-
 /**
  * 功能描述：二分查找进阶模板题
  *

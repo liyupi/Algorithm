@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * 功能描述：矩阵置零
  * <p>
@@ -8,58 +10,42 @@
 
 public class Main {
 
-    public void setZeroes(int[][] matrix) {
-        int m = matrix.length;
-        if (m == 0) {
-            return;
+    public boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            return false;
         }
-        int n = matrix[0].length;
-        if (n == 0) {
-            return;
-        }
-        boolean firstRowZero = false;
-        boolean firstColZero = false;
-        // 第一次扫描
-        // 判断首列有没有0
-        for (int i = 0; i < m; i++) {
-            if (matrix[i][0] == 0) {
-                firstColZero = true;
+        int left = 0;
+        int right = matrix.length - 1;
+        while (left < right) {
+            int middle = left + (right - left) / 2;
+            if (matrix[middle][0] > target) {
+                right = middle - 1;
+            } else if (matrix[middle][0] < target) {
+                left = middle;
+            } else {
+                return true;
             }
         }
-        // 判断首行有没有0
-        for (int i = 0; i < n; i++) {
-            if (matrix[0][i] == 0) {
-                firstRowZero = true;
-            }
-        }
-        for (int i = 1; i < m; i++) {
-            for (int j = 1; j < n; j++) {
-                if (matrix[i][j] == 0) {
-                    matrix[0][j] = 0;
-                    matrix[i][0] = 0;
-                }
-            }
-        }
-        // 第二次扫描
-        for (int i = 1; i < m; i++) {
-            for (int j = 1; j < n; j++) {
-                if (matrix[0][j] == 0 || matrix[i][0] == 0) {
-                    matrix[i][j] = 0;
-                }
-            }
-        }
-        // 如果首行有0，赋值为0
-        if (firstRowZero) {
-            for (int i = 0; i < n; i++) {
-                matrix[0][i] = 0;
-            }
-        }
-        // 如果首列有0，赋值为0
-        if (firstColZero) {
-            for (int i = 0; i < m; i++) {
-                matrix[i][0] = 0;
-            }
-        }
+        return binarySearch(matrix[left], target);
     }
 
+    public boolean binarySearch(int[] array, int target) {
+        int left = 0;
+        int right = array.length - 1;
+        while (left < right) {
+            int middle = left + (right - left) / 2;
+            if (array[middle] > target) {
+                right = middle - 1;
+            } else if (array[middle] < target) {
+                left = middle;
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        new Main().searchMatrix(new int[][]{{1,3,5,7},{10,11,16,20},{23,30,34,50}}, 13);
+    }
 }
