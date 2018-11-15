@@ -1,6 +1,4 @@
-import java.nio.charset.MalformedInputException;
-import java.util.LinkedList;
-import java.util.Queue;
+package com.yupi.algorithm.leetcode.dfs;
 
 /**
  * 功能描述：单词搜索
@@ -8,7 +6,7 @@ import java.util.Queue;
  * 思路：设置访问数组，dfs
  */
 
-public class Main {
+public class WordSearch {
 
     private int[][] dir = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
@@ -57,7 +55,4 @@ public class Main {
         return false;
     }
 
-    public static void main(String[] args) {
-        new Main().exist(new char[][]{{'a','b'}},"ba");
-    }
 }
