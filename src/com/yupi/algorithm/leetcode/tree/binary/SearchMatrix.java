@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import java.util.Arrays;
 
 /**
@@ -6,11 +8,7 @@ import java.util.Arrays;
  * 思路：纵向二分和横向二分结合使用，注意二分时的left和right关系
  */
 
-public class Main {
-
-    public static void main(String[] args) {
-        System.out.println(new Main().searchMatrix(new int[][]{{1, 2, 4}, {5, 6, 7}, {8, 9, 10}}, 12));
-    }
+public class SearchMatrix {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
