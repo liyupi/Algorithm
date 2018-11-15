@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.stack;
+
 import java.util.Stack;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Stack;
  * 思路：利用栈存储每个有效路径名即可
  */
 
-public class Main {
+public class SimplifyPath {
 
     public String simplifyPath(String path) {
         if ("".equals(path)) {
