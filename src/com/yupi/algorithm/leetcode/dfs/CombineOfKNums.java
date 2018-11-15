@@ -1,6 +1,6 @@
-import javax.naming.InterruptedNamingException;
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -9,7 +9,7 @@ import java.util.List;
  * 思路：dfs即可，注意限定for循环的范围
  */
 
-public class Main {
+public class CombineOfKNums {
 
     private List<List<Integer>> res = new ArrayList<>();
 
