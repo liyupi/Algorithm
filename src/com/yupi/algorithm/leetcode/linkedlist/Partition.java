@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：分割链表
@@ -6,7 +6,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 思路：新建两个链表分别存储大于和小于，最后合并
  */
 
-public class Main {
+public class Partition {
 
     public ListNode partition(ListNode head, int x) {
         ListNode small = new ListNode(1);
