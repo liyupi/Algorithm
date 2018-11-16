@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：删除排序链表中的重复元素Ⅱ
@@ -6,7 +6,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 思路：递归
  */
 
-public class Main {
+public class DeleteDuplicateII {
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
