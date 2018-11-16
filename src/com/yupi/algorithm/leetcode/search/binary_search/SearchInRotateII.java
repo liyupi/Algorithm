@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.search.binary_search;
+
 /**
  * 功能描述：在旋转排序数组中查找Ⅱ
  * <p>
  * 思路：二分查找，先判断middle和left是否在同一区间，再判断target和left的关系
  */
 
-public class Main {
+public class SearchInRotateII {
 
     public boolean search(int[] nums, int target) {
         int left = 0;
