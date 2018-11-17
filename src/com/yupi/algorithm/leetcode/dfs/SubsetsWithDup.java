@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.*;
 
 /**
@@ -6,7 +8,7 @@ import java.util.*;
  * 思路：dfs，用set记录元素以去重，注意1, 4, 4与4, 4, 1算重复，因此要先排序
  */
 
-public class Main {
+public class SubsetsWithDup {
 
     private List<List<Integer>> res = new ArrayList<>();
 
@@ -35,7 +37,4 @@ public class Main {
         }
     }
 
-    public static void main(String[] args){
-        new Main().subsetsWithDup(new int[]{1,2,2});
-    }
 }
