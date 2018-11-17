@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：解码方式
  * <p>
  * 思路：dfs，dp[i]表示i位码的表示方式数
  */
 
-public class Main {
+public class NumDecodings {
 
     public int numDecodings(String s) {
         int len = s.length();
