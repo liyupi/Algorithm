@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * 思路：dfs即可
  */
 
-public class Main {
+public class RestoreIPAddress {
 
     List<String> res = new ArrayList<>();
 
