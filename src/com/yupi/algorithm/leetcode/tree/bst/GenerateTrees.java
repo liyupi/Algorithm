@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
  * 遍历左子树根节点列表，右子树根节点列表，将所有情况加入到结果列表。
  */
 
-public class Main {
+public class GenerateTrees {
 
     public List<TreeNode> generateTrees(int n) {
         if (n <= 0) {
