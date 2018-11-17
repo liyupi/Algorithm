@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：反转链表Ⅱ
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 最后再与反转前的节点连接
  */
 
-public class Main {
+public class ReverseBetween {
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode mNode = head;
