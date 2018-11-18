@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.tree.bst;
+
 /**
  * 功能描述：不同的二叉搜索树
  * <p>
  * 思路：找规律后，递归+dp
  */
 
-public class Main {
+public class NumTrees {
 
     int[] dp;
 
@@ -28,9 +30,6 @@ public class Main {
             }
             dp[n] += dp[i - 1] * dp[n - i];
         }
-    }
-    public static void main(String[] args){
-        new Main().numTrees(3);
     }
 
 }
