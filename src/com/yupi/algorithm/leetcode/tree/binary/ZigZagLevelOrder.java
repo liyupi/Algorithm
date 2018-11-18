@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 import java.util.*;
@@ -8,7 +10,7 @@ import java.util.*;
  * 思路：判断奇偶层，进行反转或addFirst即可
  */
 
-public class Main {
+public class ZigZagLevelOrder {
 
     List<List<Integer>> res = new ArrayList<>();
 
