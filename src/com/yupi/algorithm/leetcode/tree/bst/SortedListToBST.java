@@ -1,7 +1,6 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.tree.bst;
 
-import java.util.*;
+import com.yupi.algorithm.leetcode.linkedlist.ListNode;
 
 /**
  * 功能描述：有序链表转二叉搜索树
@@ -9,7 +8,7 @@ import java.util.*;
  * 思路：二叉搜索树中序遍历即为有序数组，因此每次先找中间元素，用快慢指针法
  */
 
-public class Main {
+public class SortedListToBST {
 
     public TreeNode sortedListToBST(ListNode head) {
         if(head == null) {
