@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 import java.util.List;
 
 /**
@@ -8,7 +10,7 @@ import java.util.List;
  * 最后遍历当前层次最小距离数组找最小值即可
  */
 
-public class Main {
+public class MinimumTotal {
 
 /*  传统dp做法
     public int minimumTotal(List<List<Integer>> triangle) {
