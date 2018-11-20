@@ -1,7 +1,9 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 功能描述：二叉树的路经总和
@@ -9,7 +11,7 @@ import java.util.*;
  * 思路：自顶向下递归即可
  */
 
-public class Main {
+public class PathSum2 {
 
     private List<List<Integer>> res = new ArrayList<>();
 
