@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
+package com.yupi.algorithm.leetcode.bit;
 
 /**
  * 功能描述：只出现一次的数字
@@ -7,7 +7,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * 因此统计32位中位数出现1次数不为3的倍数的位，加到结果中
  */
 
-public class Main {
+public class SingleNumber {
 
     public int singleNumber(int[] nums) {
         int res = 0;
