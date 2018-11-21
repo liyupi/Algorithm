@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -6,7 +8,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * 思路：自顶向下遍历树即可
  */
 
-public class Main {
+public class SumNumbers {
 
     private int res = 0;
 
