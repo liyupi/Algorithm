@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：重排链表
@@ -6,7 +6,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 思路：好题，用到了快慢指针法，链表反转以及链表合并
  */
 
-public class Main {
+public class ReorderList {
 
     public void reorderList(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) {
