@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bfs;
+
 import java.util.*;
 
 /**
@@ -6,7 +8,7 @@ import java.util.*;
  * 思路：找最短路问题，使用bfs，为防止重复，遍历过的单词从字典中删除
  */
 
-public class Main {
+public class LadderLength {
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> set = new HashSet<>();
@@ -44,7 +46,4 @@ public class Main {
         return 0;
     }
 
-    public static void main(String[] args){
-        new Main().ladderLength("hit","cog",Arrays.asList( "hot","dot","dog","lot","log","cog"));
-    }
 }
