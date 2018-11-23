@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 /**
  * 功能描述：被围绕的区域
  *
  * 思路：因为与边界相邻的O不会被改变，因此可以访问所有与边界相邻的O，没访问过即可变成X
  */
 
-public class Main {
+public class AroundArea {
 
     boolean[][] visited;
 
