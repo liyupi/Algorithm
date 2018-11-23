@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -8,7 +10,7 @@ import java.util.Set;
  * 思路：为防止重复运算，用一个数组记录以i开头的子串是否能被拆分
  */
 
-public class Main {
+public class WordBreak {
 
     private int[] canBreak;
 
