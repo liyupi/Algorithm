@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：加油站
  * <p>
@@ -5,7 +7,7 @@
  * 最后判断总量是否满足即可
  */
 
-public class Main {
+public class CanCompleteCircuit {
 
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int total = 0;
