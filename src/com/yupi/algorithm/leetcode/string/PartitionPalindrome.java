@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * 思路：先利用求最长回文子串的思路得到dp[i][j]（从i到j是否为回文），然后再dfs递归即可
  */
 
-public class Main {
+public class PartitionPalindrome {
 
     // dp[i][j]表示字符串第i到j位是否为回文串
     boolean[][] dp;
@@ -57,7 +59,4 @@ public class Main {
         }
     }
 
-    public static void main(String[] args){
-        new Main().partition("cbbbcc");
-    }
 }
