@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：乘积最大子序列
  * <p>
@@ -5,7 +7,7 @@
  * 然后用res记录过程中的最大值即可
  */
 
-public class Main {
+public class MaxProduct {
 
     public int maxProduct(int[] nums) {
         int len = nums.length;
