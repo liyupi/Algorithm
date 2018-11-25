@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.string;
+
 /**
  * 功能描述：删除列使之有序
  * <p>
  * 思路：水题
  */
 
-public class Main {
+public class MinDeletionSize {
 
     public int minDeletionSize(String[] A) {
         int res = 0;
