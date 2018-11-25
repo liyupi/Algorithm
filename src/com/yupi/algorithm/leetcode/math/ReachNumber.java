@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：重新排列日志文件
  * <p>
@@ -7,7 +9,7 @@
  * 否则要多移动一次，再判断移动次数是否为偶数次，是偶数次则再多移动一次
  */
 
-public class Main {
+public class ReachNumber {
 
     public int reachNumber(int target) {
         target = Math.abs(target);
