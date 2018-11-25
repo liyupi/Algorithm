@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.Map;
  * 思路：map的运用
  */
 
-public class Main {
+public class ShortestCompletingWord {
 
     String shortestCompletingWord(String licensePlate, String[] words) {
         int min = Integer.MAX_VALUE;
