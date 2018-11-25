@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：增减字符串匹配
  * <p>
  * 思路：水题
  */
 
-public class Main {
+public class DiStringMatch {
 
     public int[] diStringMatch(String S) {
         int len = S.length();
