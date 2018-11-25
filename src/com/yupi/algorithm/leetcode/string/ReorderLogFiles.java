@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.string;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -7,7 +9,7 @@ import java.util.Comparator;
  * 思路：水题
  */
 
-public class Main {
+public class ReorderLogFiles {
 
     public String[] reorderLogFiles(String[] logs) {
         int pos = logs.length - 1;
