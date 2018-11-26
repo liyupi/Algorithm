@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.Arrays;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Arrays;
  * 思路：巧妙地选取排序因素（如30和3，303<330）可将两数连接进行比较
  */
 
-public class Main {
+public class LargestNumber {
 
     public String largestNumber(int[] nums) {
         String[] strs = new String[nums.length];
