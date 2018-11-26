@@ -1,4 +1,7 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.string;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 功能描述：字符串的排列
@@ -7,7 +10,7 @@ import java.util.*;
  * 集合为空时，表示字符串的某排列是另一个字符串的子串。
  */
 
-public class Main {
+public class CheckInclusion {
 
     public boolean checkInclusion(String s1, String s2) {
         int[] map1 = new int[123];
