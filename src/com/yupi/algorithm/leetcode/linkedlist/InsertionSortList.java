@@ -1,4 +1,4 @@
-import com.yupi.algorithm.leetcode.linkedlist.ListNode;
+package com.yupi.algorithm.leetcode.linkedlist;
 
 /**
  * 功能描述：插入排序链表
@@ -6,7 +6,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 思路：注意首尾的特殊性
  */
 
-public class Main {
+public class InsertionSortList {
 
     public ListNode insertionSortList(ListNode head) {
         if (head == null) {
