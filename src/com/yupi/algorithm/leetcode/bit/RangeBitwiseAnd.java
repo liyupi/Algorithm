@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：数字范围按位与
  *
@@ -6,7 +8,7 @@
  * 因此找到该位，可先右移再左移（让右边全变成0）
  */
 
-public class Main {
+public class RangeBitwiseAnd {
 
     public int rangeBitwiseAnd(int m, int n) {
         int offset = 0;
