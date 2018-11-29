@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.dfs;
+
 /**
  * 功能描述：朋友圈
  * <p>
@@ -6,7 +8,7 @@
  * 则dfs总次数即为朋友圈数（类似求水洼数）
  */
 
-public class Main {
+public class FindFriendCircle {
 
     boolean[] visited;
 
