@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：最大正方形
  * 思路：dp，dp[i][j] = Math.min(dp[i - 1][j], dp[i - 1][j - 1], dp[i][j - 1]) + dp[i][j] == 1 ? 1 : 0;
  * 注意首行首列要单独遍历
  */
 
-public class Main {
+public class MaximalSquare {
 
     public int maximalSquare(char[][] matrix) {
         if(matrix.length == 0 || matrix[0].length == 0) {
