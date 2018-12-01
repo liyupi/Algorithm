@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.graph;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 功能描述：课程表
@@ -7,7 +12,7 @@ import java.util.*;
  * 遍历过的节点入度赋值为-1表示访问过
  */
 
-public class Main {
+public class CanFinish {
 
     Map<Integer, List<Integer>> map = new HashMap<>();
 
