@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -10,7 +12,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * 求子树高度一直递归左节点即可（完全二叉树节点靠左）
  */
 
-public class Main {
+public class CountNodes {
 
     public int countNodes(TreeNode root) {
         if (root == null) {
