@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.graph;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.Map;
  * 思路：和课程表I一样，只不过把路径记录下来
  */
 
-public class Main {
+public class CanFinish2 {
 
     Map<Integer, List<Integer>> map = new HashMap<>();
 
