@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：打家劫舍II
  * 思路：利用两个dp找最大值，分别为劫第一个和不劫第一个
  */
 
-public class Main {
+public class RobHouse2 {
 
     public int rob(int[] nums) {
         if (nums.length == 0) {
