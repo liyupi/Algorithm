@@ -1,4 +1,9 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.hash;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 功能描述：重复的DNA序列
@@ -6,7 +11,7 @@ import java.util.*;
  * 利用2位二进制表示4个字符，因此10个字符可映射成一个20bit的整数，然后滑动窗口即可
  */
 
-public class Main {
+public class FindRepeatedDnaSequences {
 
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> res = new ArrayList<>();
@@ -48,10 +53,5 @@ public class Main {
                 return 4;
         }
     }
-
-    public static void main(String[] args){
-        new Main().findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
-    }
-
 
 }
