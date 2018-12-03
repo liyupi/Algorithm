@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：搜索二维矩阵II
  * 思路：十分巧妙，每次判断左下角的值，然后可排除一行或一列
  */
 
-public class Main {
+public class SearchMatrix2 {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix.length == 0 || matrix[0].length == 0) {
