@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +11,7 @@ import java.util.Map;
  * hashmap防止重复运算
  */
 
-public class Main {
+public class DiffWaysToCompute {
 
     private Map<String, List<Integer>> map = new HashMap<>();
 
