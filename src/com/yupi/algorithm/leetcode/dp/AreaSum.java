@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：一维区域和检索
  * 思路：动态规划，i到j的和为dp[j] - dp[i - 1]
  */
 
-public class Main {
+public class AreaSum {
 
     class NumArray {
 
