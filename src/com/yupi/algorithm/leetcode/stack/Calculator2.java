@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.stack;
+
 import java.util.Stack;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Stack;
  * 最后遍历栈，求和
  */
 
-public class Main {
+public class Calculator2 {
 
     public int calculate(String s) {
         int res = 0;
