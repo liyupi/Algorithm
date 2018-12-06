@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.Map;
  * 思路：很恶心的题，边界值太多
  */
 
-public class Main {
+public class FractionToDecimal {
 
     public String fractionToDecimal(int numerator, int denominator) {
         Map<Long, Integer> map = new HashMap<>();
