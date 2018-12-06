@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ import java.util.List;
  * 思路：水题，一次遍历
  */
 
-public class Main {
+public class SummaryRanges {
 
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
