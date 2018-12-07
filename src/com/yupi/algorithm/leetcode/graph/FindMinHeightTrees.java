@@ -1,4 +1,8 @@
-import java.util.*;
+package com.yupi.algorithm.leetcode.graph;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 
 /**
  * 功能描述：最小高度树
@@ -8,7 +12,7 @@ import java.util.*;
  * https://www.cnblogs.com/grandyang/p/5000291.html
  */
 
-public class Main {
+public class FindMinHeightTrees {
 
 
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
