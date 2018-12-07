@@ -1,3 +1,5 @@
+package com.yupi.algorithm.pat.medium;
+
 import java.util.Scanner;
 
 /**
@@ -5,7 +7,7 @@ import java.util.Scanner;
  * 思路：解决冲突应使用二次探测法！
  */
 
-public class Main {
+public class Hashing {
 
     private static boolean[] notPrime = new boolean[110 * 110];
 
