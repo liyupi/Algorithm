@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：最长上升子序列
  * 思路：dp时间复杂度为n^2，可以使用插值+二分法，讲解的很不错
  * https://blog.csdn.net/lw_power/article/details/80758674
  */
 
-public class Main {
+public class LIS {
 
     int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
@@ -37,10 +39,6 @@ public class Main {
             }
         }
         nums[left] = num;
-    }
-
-    public static void main(String[] args){
-        new Main().lengthOfLIS(new int[]{4,10,4,3,8,9});
     }
 
 }
