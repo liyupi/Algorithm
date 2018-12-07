@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：二维区域和检索
  * 思路：动态规划，扩展数组来简化代码，思路同一维区域和检索
  */
 
-public class Main {
+public class AreaSum2 {
 
     class NumMatrix {
 
