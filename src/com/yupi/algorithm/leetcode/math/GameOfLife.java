@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：生命游戏
  * 思路：因为要整体更新，需要记录细胞原来的状态，但又要求原地，因此要遍历2次，用数字表示状态（当前和下一次的状态）
@@ -7,13 +9,9 @@
  * 3 活细胞转为死细胞
  */
 
-public class Main {
+public class GameOfLife {
 
     int[][] dir = new int[][]{{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
-
-    public static void main(String[] args) {
-        new Main().gameOfLife(new int[][]{{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}});
-    }
 
     public void gameOfLife(int[][] board) {
         int m = board.length;
