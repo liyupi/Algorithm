@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.bit;
+
 /**
  * 功能描述：最大单词长度乘积
  * 思路：利用26位长度的数来记录每个单词某个字母是否出现
  * 这样只需要让两个数与（判断是否为0）即可得到是否有重复的字母
  */
 
-public class Main {
+public class MaxProduct {
 
     public int maxProduct(String[] words) {
         if (words.length < 2) {
