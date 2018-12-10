@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.matrix;
+
 /**
  * 功能描述：范围求和II
  * 思路：本以为是线段树，没想到是水题，因为增加值从0下标开始，因此靠近左上的一定最大，记录x、y坐标最小值的乘积即可
  */
 
-public class Main {
+public class RangeSumMaxCount {
 
     public int maxCount(int m, int n, int[][] ops) {
         if (ops.length == 0 || ops[0].length == 0) {
