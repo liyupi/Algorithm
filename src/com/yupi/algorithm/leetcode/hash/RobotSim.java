@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -6,11 +8,7 @@ import java.util.Set;
  * 思路：利用set存储障碍物，设计键为x,y，每次行走前判断当前坐标是否在障碍物中，若无，则行走
  */
 
-public class Main {
-
-    public static void main(String[] args) {
-        new Main().robotSim(new int[]{4, -1, 4, -2, 4}, new int[][]{{2, 4}});
-    }
+public class RobotSim {
 
     public int robotSim(int[] commands, int[][] obstacles) {
         if (commands.length == 0) {
