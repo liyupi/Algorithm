@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：丑数II
  * 思路：利用丑数的特性，动态规划，每个丑数必定为之前的丑数乘2、3或5得到，并取最小值
  * 使用三个下表记录上一次包含该质数的丑数
  */
 
-public class Main {
+public class NthUglyNumber {
 
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];
