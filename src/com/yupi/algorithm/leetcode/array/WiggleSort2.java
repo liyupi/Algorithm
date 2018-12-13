@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.array;
+
 import java.util.Arrays;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Arrays;
  *       解法2：时间复杂度要求o(n)，空间复杂度要求o(1)，暂时不会
  */
 
-public class Main {
+public class WiggleSort2 {
 
     /**
      * 解法1
