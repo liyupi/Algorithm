@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：超级次方
  * 思路：只要是次方就考虑递归，每次拆分成一半的次方乘一半的次方
  */
 
-public class Main {
+public class SuperPow {
 
     public int superPow(int a, int[] b) {
         long res = 1;
