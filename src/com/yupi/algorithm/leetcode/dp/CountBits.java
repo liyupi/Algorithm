@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：比特位计数
  * 思路：显然用dp，dp[i] = dp[i & (i - 1)] + 1; 因为i & (i - 1)屏蔽了最低位的1，所以要+1
  */
 
-public class Main {
+public class CountBits {
 
     /**
      * 解法1
