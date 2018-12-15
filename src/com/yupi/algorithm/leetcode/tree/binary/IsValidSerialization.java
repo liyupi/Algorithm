@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 /**
  * 功能描述：验证二叉树的前序序列化
  * 思路：pos变量记录可插入的节点位置数（初值为1）
@@ -5,7 +7,7 @@
  * 最后结果为pos == 0
  */
 
-public class Main {
+public class IsValidSerialization {
 
     public boolean isValidSerialization(String preorder) {
         String[] word = preorder.split(",");
