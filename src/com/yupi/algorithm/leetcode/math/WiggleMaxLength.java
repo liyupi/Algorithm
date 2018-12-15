@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：摆动序列
  * 思路：自认为很牛逼的解法，贪心法，只要上升或下降状态改变计数器就加1，需要考虑元素相等的情况
  */
 
-public class Main {
+public class WiggleMaxLength {
 
     public int wiggleMaxLength(int[] nums) {
         if (nums.length == 0) {
