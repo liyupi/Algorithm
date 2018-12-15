@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：验证外形词典
  * 思路：用数组记录字典序，若单词有序，则一次遍历比较相邻单词即可
  */
 
-public class Main {
+public class IsAlienSorted {
 
     public boolean isAlienSorted(String[] words, String order) {
         int[] dic = new int[123];
