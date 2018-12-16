@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：递增的三元子序列
  * 思路：记录一个长度为2的递增子序列，并保证该序列元素最小
  */
 
-public class Main {
+public class IncreasingTriplet {
 
     public boolean increasingTriplet(int[] nums) {
         if (nums.length < 3) {
