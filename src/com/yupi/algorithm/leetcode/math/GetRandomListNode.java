@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import com.yupi.algorithm.leetcode.linkedlist.ListNode;
 
 /**
@@ -5,7 +7,7 @@ import com.yupi.algorithm.leetcode.linkedlist.ListNode;
  * 思路：蓄水池抽样原理：遍历整个链表，是否取第i个元素的概率为1/(i + 1)，返回值不断覆盖，每个节点几率都相等
  */
 
-public class Main {
+public class GetRandomListNode {
 
     class Solution {
 
