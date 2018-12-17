@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.tree.binary;
+
 import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
 
 /**
@@ -5,7 +7,7 @@ import com.yupi.algorithm.leetcode.tree.bst.TreeNode;
  * 思路：原本直接递归，发现会重复计算，效率低。可用数组保存计算结果，res数组含义见代码注释
  */
 
-public class Main {
+public class Rob {
 
     public int rob(TreeNode root) {
         int[] res = robSub(root);
