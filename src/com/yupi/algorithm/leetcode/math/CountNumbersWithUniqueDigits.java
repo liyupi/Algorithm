@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：计算各个位数不同的数字个数
  * 思路：排列组合问题，由于n范围只有10，可使用打表法提高效率
  */
 
-public class Main {
+public class CountNumbersWithUniqueDigits {
 
 /*  排列组合
     public int countNumbersWithUniqueDigits(int n) {
