@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.hash;
+
 /**
  * 功能描述：Bulls And Cows
  * 思路：map问题，巧妙之处在于不需要使用hash表，总共10个数，用一个数组记录每个数双方出现的最小次数，求和即可
  */
 
-public class Main {
+public class BullsAndCows {
 
     public String getHint(String secret, String guess) {
         int len = secret.length();
