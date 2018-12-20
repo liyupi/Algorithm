@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：有效的正方形
  * 思路：以某一个点为基准，判断其与其他点的最长连线的平方是否为另两条线的平方和，找到了对角线。
  * 再判断剩余边的值是否相等。
  */
 
-public class Main {
+public class ValidSquare {
 
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         int[] edges = new int[3];
