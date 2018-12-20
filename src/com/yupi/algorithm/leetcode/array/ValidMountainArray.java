@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.array;
+
 /**
  * 功能描述：有效的山脉数组
  * 思路：先判断连续递增，再判断连续递减即可
  */
 
-public class Main {
+public class ValidMountainArray {
 
     public boolean validMountainArray(int[] A) {
         if (A.length < 3) {
