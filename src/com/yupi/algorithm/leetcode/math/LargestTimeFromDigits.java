@@ -1,9 +1,11 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：给定数字组合成的最大时间
  * 思路：4个数字分为2组，每组表示小时或分钟。列举组合，求最大时间
  */
 
-public class Main {
+public class LargestTimeFromDigits {
 
     String res;
 
