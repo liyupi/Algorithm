@@ -1,9 +1,12 @@
+package com.yupi.algorithm.leetcode.dp;
+
 /**
  * 功能描述：超级丑数
  * 思路：和第n个丑数原理一致，用indices数组记录每个因子当前应乘的丑数位置，每轮比较最小
+ * LeetCode 313
  */
 
-public class Main {
+public class NthSuperUglyNumber {
 
     public int nthSuperUglyNumber(int n, int[] primes) {
         int[] indices = new int[primes.length];
