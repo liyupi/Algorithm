@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.hash;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -6,7 +8,7 @@ import java.util.Set;
  * 思路：水题
  */
 
-public class Main {
+public class RepeatedNTimes {
 
     public int repeatedNTimes(int[] A) {
         Set<Integer> set = new HashSet<>();
