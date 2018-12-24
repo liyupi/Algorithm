@@ -1,10 +1,12 @@
+package com.yupi.algorithm.leetcode.math;
+
 /**
  * 功能描述：整数拆分
  * 思路：能拆3就拆3
  * LeetCode 343
  */
 
-public class Main {
+public class IntegerBreak {
 
     public int integerBreak(int n) {
         int num = n / 3;
