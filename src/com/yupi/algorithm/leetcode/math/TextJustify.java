@@ -1,3 +1,5 @@
+package com.yupi.algorithm.leetcode.math;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ import java.util.List;
  * LeetCode 68
  */
 
-public class Main {
+public class TextJustify {
 
     public List<String> fullJustify(String[] words, int maxWidth) {
         int left = 0;
@@ -57,11 +59,6 @@ public class Main {
         }
         list.add(sb.toString());
         return list;
-    }
-
-    public static void main(String[] args) {
-        String[] words = new String[]{"This", "is", "an", "example", "of", "text", "justification."};
-        new Main().fullJustify(words, 16);
     }
 
 }
